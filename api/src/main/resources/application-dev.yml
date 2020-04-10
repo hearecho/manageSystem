@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api
+server:
+  port: 8020
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+zuul:
+  routes:
+    staff:
+      path: /api/s/**
+      serviceId: staff
+    manage:
+      path: /api/m/**
+      serviceId: manage
+    finance:
+      path: /api/f/**
+      serviceId: finance

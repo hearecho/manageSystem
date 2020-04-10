@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="finance" />
+        <module name="productmanage" />
+        <module name="staff" />
+        <module name="eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configserver" target="1.8" />
+      <module name="custom" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="systemadmin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="custom" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="finance" options="-parameters" />
+      <module name="manageSystem" options="-parameters" />
+      <module name="productmanage" options="-parameters" />
+      <module name="staff" options="-parameters" />
+      <module name="systemadmin" options="-parameters" />
+    </option>
+  </component>
+</project>

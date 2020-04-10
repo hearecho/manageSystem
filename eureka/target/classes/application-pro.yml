@@ -1,0 +1,8 @@
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: ${SPRING-CLOUD-EUREKA-ZONE}
+    register-with-eureka: false
+    fetch-registry: false
