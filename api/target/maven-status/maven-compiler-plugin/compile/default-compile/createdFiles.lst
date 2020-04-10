@@ -1,9 +1,0 @@
-com\echo\response\ResultCodeEnum.class
-com\echo\exception\GlobalExceptionHandler.class
-com\echo\config\CORSConfiguration.class
-com\echo\response\R.class
-com\echo\ApiApplication.class
-com\echo\controller\MainController.class
-com\echo\exception\CMSException.class
-com\echo\config\CORSConfiguration$1.class
-com\echo\entity\User.class
